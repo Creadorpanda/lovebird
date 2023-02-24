@@ -1,0 +1,161 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+.maindiv {
+	display: flex;
+	height: 100%;
+
+	
+
+
+}
+
+
+.maindiv {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media (min-width: 375px) and (max-width: 800px) {
+  .maindiv {
+    flex-direction: column;
+  }
+}
+
+
+.subdiv1 {
+
+	flex: 50%;
+	
+
+	
+}
+
+.subdiv2  {
+	flex: 50%;
+	background-color: #a4c4b5;
+	text-align: center;
+	height: 915px;
+
+}
+
+.bird {
+	width: 90%;
+	height: 77%;
+	
+	
+
+}
+
+.logo {
+	width: 25%;
+	padding-left: 40%;
+	padding-top: 5%;
+
+
+	
+}
+
+.text {
+	color: white;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10%;
+	color: #b4b4b4;
+
+
+}
+
+.form {
+	padding-left: 20%;
+	padding-top: 10%;
+
+	
+}
+#username {
+	width: 76%;
+	margin-bottom: 2%;
+	color: #b4b4b4;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#password {
+	width: 76%;
+	margin-bottom: 2%;
+	color: #b4b4b4;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#forgotpassword {
+	padding-left: 69%;
+	padding-bottom: 5%;
+	color: #798d6d;
+}
+
+#signin {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	
+}
+#signin a {
+	background-color: #696969;
+	padding: 16px 120px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	Font-weight: 900;
+}
+
+.createaccount {
+	
+	padding-top: 8%;
+	color: #7e7e7e;
+}
+
+
+#Googlelogo {
+	width: 8%;
+	height: 8%;
+} 
+
+.subdiv3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+}
+.lastdiv {
+	display: flex;
+}
+
+#linebreakdiv {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+
+#lovebirds {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
